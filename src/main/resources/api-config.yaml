@@ -1,0 +1,7 @@
+apiPackage: org.example.generated.api
+modelPackage: org.example.generated.model
+interfaceOnly: true
+enumPropertyNaming: original
+files:
+  dataClass.mustache:
+    templateType: API

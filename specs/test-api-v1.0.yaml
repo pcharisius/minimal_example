@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: Test API
+  version: 1.2.0
+servers:
+  - description: local testing
+    url: http://localhost:8080
+security:
+  - basicAuth: []
+paths:
+  /v1/test:
+    get:
+      operationId: getTest
+      responses:
+        '200':
+          description: OK
